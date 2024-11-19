@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://raw.githubusercontent.com/Bsar-Cyber/bsar-cyber.github.io/refs/heads/master"
+cdn: "https://raw.githubusercontent.com/Bsar-Cyber/bsar-cyber.github.io/refs/heads/main"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://avatars.githubusercontent.com/u/173823375?v=4"
