@@ -440,11 +440,8 @@ Key Finding:
 - After enumerating through the account, there is a valid user credential stored, and accessible to pivot to using secure shell (SSH). Which allow attacker to retrieve the first flag.
 - A text document inform that a service (`Jenkins`) is running on another service called `Docker`.
 - Attacker pivot to the service by using the user credential stored in the system.
-<<<<<<< HEAD
 - `Jenkins` account has a weak credential that allows attacker to brute force the password. The service allows attacker to run a arbitrary code to pivot and find another credential to escalate privilege to gain root access and retrieve the second flag.
-=======
-- `Jenkins` account allow has a weak credential that allow attacker to brute force the password. The service allows attacker to run a arbitrary code to pivot and find another credential to escalate privilege to gain root access and retrieve the second flag.
->>>>>>> 0baceb9 (Update 1.4.7)
+
 
 Remediation Suggestion:
 
