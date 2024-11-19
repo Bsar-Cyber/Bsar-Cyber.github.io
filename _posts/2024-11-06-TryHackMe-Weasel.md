@@ -1,5 +1,5 @@
 ---
-title: Internal (Windows)
+title: Weasel (Windows)
 description: Enumerate SMB shares, gain foothold by exploiting Jupyter, pivot with SSH key, and escalate priviledge with Runas.
 author: Bsar
 date: 2024-11-06 00:00:00 +06:00
@@ -252,3 +252,5 @@ Enter the password: wUq[Redacted]aUn
 ```bash
 type \Users\dev-datasci-lowpriv\Desktop\user.txt && type \users\administrator\desktop\root.txt && ipconfig && date /t
 ```
+
+![image.png](/assets/img/posts/THM-Weasel/image.png)
